@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../../components/hero'
-import Navbar from '../../components/navbar'
-// import "./style.css"
+import SecondHero from '../../components/secondHero'
 
 const Home = () => {
   return (
     <div>
       <Hero />
+      <SecondHero />
     </div>
   )
 }
