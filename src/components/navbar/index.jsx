@@ -22,7 +22,7 @@ const Navbar = () => {
     const handleMobile = () => {setMobile(!mobile)}
 
   return (
-    <nav className='w-[100%] h-[100px] 2xl:h-[120px] sticky top-0 bg-[transparent] flex flex-col justify-between overflow-hidden z-[10] '>
+    <nav className='w-[100%] h-[100px] 2xl:h-[120px] sticky top-0 bg-[transparent] flex flex-col justify-between overflow-hidden z-[100] '>
         <div className='w-[100%] h-[100%] flex flex-row justify-between '>
             <section className='w-[75%] flex flex-row justify-start items-center text-xl pl-4 lg:pl-20 2xl:pl-32'>
                 <div className=' '>
@@ -30,36 +30,36 @@ const Navbar = () => {
                 </div>
 
                 <ul className='w-[65%] 2xl:w-[65%] hidden md:flex flex-row justify-between pl-12 lg:pl-20 2xl:pl-32'>
-                    <Link to="#" className='text-base lg:text-lg 2xl:text-4xl'>Buy</Link>
-                    <Link to="#" className='text-base lg:text-lg 2xl:text-4xl'>Rent</Link>
+                    <Link to="#" className='text-base lg:text-lg 2xl:text-2xl'>Buy</Link>
+                    <Link to="#" className='text-base lg:text-lg 2xl:text-2xl'>Rent</Link>
                     <li>
                         <span>
-                            <Link to="#" className='text-base lg:text-lg 2xl:text-4xl'>Find Agents </Link>
+                            <Link to="#" className='text-base lg:text-base 2xl:text-2xl'>Find Agents </Link>
                         </span>
                         /
                         <span>
-                            <Link to="#" className='text-base lg:text-lg 2xl:text-4xl'> Home Owners</Link>
+                            <Link to="#" className='text-base lg:text-lg 2xl:text-2xl'> Home Owners</Link>
                         </span>
                     </li>
                 </ul>
             </section>
             
-            <section className='w-[25%] hidden md:flex flex-row justify-end items-center text-base lg:text-lg 2xl:text-4xl md:pr-6 lg:pr-20 2xl:pr-32 '>
+            <section className='w-[25%] hidden md:flex flex-row justify-end items-center text-base lg:text-lg 2xl:text-2xl md:pr-6 lg:pr-20 2xl:pr-32 '>
                 <RxPerson />
                 &nbsp; &nbsp;
                 Login
             </section>
 
-            <section onClick={() => handleMobile()} className='md:hidden flex flex-row items-center justify-center pr-4 text-3xl z-[30]'>
+            <section onClick={() => handleMobile()} className='md:hidden flex flex-row items-center justify-center pr-4 text-3xl z-[80]'>
                 {mobile ? <MdClose /> : <FaBars />}
             </section>
         </div>
 
-        <hr className='bg-[#333] ' />
+        <hr className='bg-[#470584] ' />
 
         {
             mobile ? 
-                <section className='bg-white fixed h-[100%] w-[100%] sm:w-[70%] z-[20] right-0 pt-[50px] flex flex-row justify-center content-center items-center '>
+                <section className='bg-white fixed h-[100%] w-[100%] sm:w-[70%] z-[70] right-0 pt-[50px] flex flex-row justify-center content-center items-center '>
                     <div className='w-[80%] h-[100%] flex flex-col justify-evenly '>
                         {
                             Mobile.map((mobile) => (
