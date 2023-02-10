@@ -1,16 +1,18 @@
 import React from 'react'
-import Logo from "../../assets/logo/logo.svg"
+import { Link } from 'react-router-dom'
 
 
 
 const Footer = () => {
   return (
-    <div className='w-[100%] h-[100%] py-12 bg-[#2f2f6cdb] flex flex-row justify-center top-[100px] md:top-0 relative'>
+    <div className='w-[100%] h-[100%] py-12 bg-[#e0e0e0] fixed bottom-0 flex flex-row justify-center top-[100px] md:top-0 relative'>
         <div className='w-[90%] h-[100%] gap-y-12 flex flex-col  justify-evenly items-center'>
 
            <div className='w-[100%] h-[100%] flex flex-row flex-wrap gap-12 justify-evenly items-center'>
                 <div className=' h-[100%] flex flex-col justify-center items-center'>
-                    <img src={Logo} alt="logo" />
+                    <Link to="/" className="font-['Moon_Dance'] text-[80px] ">
+                        omyHome
+                    </Link>
 
                     <div className='text-[20px]'>35 Davidson Street. NY</div>
                 </div>
@@ -36,8 +38,11 @@ const Footer = () => {
                 </div>
            </div>
 
-           <div className='text-[20px]'>
-                Made with <span className='text-rose-600'>❤</span> by omyHome
+           <div className='text-[20px] flex flex-row items-center'>
+                Made with 
+                <span className='text-rose-600'>&nbsp; ❤ &nbsp;</span> 
+                by 
+                <a className='font-["Moon_Dance"] text-[30px] ' href="https://debbie.onrender.com/" target="_blank" rel="noopener noreferrer"> &nbsp;debbie.A</a>
            </div>
 
         </div>
