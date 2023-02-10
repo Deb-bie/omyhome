@@ -25,7 +25,7 @@ const Slider = () => {
 
     useEffect(() => {
         if (autoScroll) {
-            // auto()
+            auto()
         }
         return () => clearInterval(slideInterval);
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -62,8 +62,8 @@ const Slider = () => {
 
                                                 <span className={currentSlide === 2 ? "bg-orange-600 cursor-pointer h-[3px] w-[30px] sm:w-[50px] 2xl:w-[100px] m-4 overflow-hidden" : "cursor-pointer h-[3px] w-[30px] sm:w-[50px] 2xl:w-[100px] m-4 bg-gray-800 overflow-hidden"} onClick={() => setCurrentSlide(2)}></span>
                                             </div>
-
-                                            <button className='w-[90%] md:w-[50%] 2xl:w-[50%] px-4 md:px-6 2xl:px-32 py-4 2xl:py-6 bg-orange-500 mt-[10vh] -mb-[4.2vh] 2xl:-mb-[3.9vh] text-[12px] sm:text-base font-[900] flex flex-row content-center justify-between items-center text-white shadow-xl overflow-x-hidden '>
+                                        
+                                            <button className='w-[90%] md:w-[50%] 2xl:w-[50%] px-4 md:px-6 2xl:px-32 py-4 2xl:py-6 bg-orange-500 -mb-[8vh] sm:-mb-[8vh] 2xl:-mb-[7vh] text-[12px] sm:text-base font-[900] flex flex-row content-center justify-between items-center text-white shadow-xl overflow-x-hidden '>
                                                 <span className='tracking-[5px]'>VIEW PROPERTIES</span>
                                                 <span><BsArrowRight /></span>
                                             </button>
