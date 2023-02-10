@@ -13,7 +13,7 @@ const ThirdHero = () => {
           <img src={VR}  alt="VR"  className='w-[90%] h-[95vh] object-cover ' />
         </div>
 
-        <div className='absolute w-[90%] h-[50%] md:h-[50vh] flex flex-row justify-center md:justify-end overflow-hidden '>
+        <div className='absolute w-[90%] h-[50%] md:h-[50vh] hidden md:flex flex-row justify-center md:justify-end overflow-hidden '>
           <div className='w-[80%] md:w-[50%] h-[100%] py-8 2xl:py-20 bg-white flex flex-row justify-center items-center '>
             <div className='w-[90%] md:w-[50%] h-[80%] md:h-[50%] flex flex-row justify-center'>
               <div className='h-[100%] flex flex-col justify-evenly '>
