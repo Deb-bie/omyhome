@@ -1,6 +1,11 @@
+
+
+
 const FindHome = [
     {
-        type: "DEAL TYPE"
+        type: "DEAL TYPE",
+        click: 'handleDeal'
+        
     },
     {
         type: "CITY"

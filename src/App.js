@@ -7,10 +7,7 @@ import Owners from "./screens/owners";
 import Agents from "./screens/agents";
 import Login from "./screens/login";
 import Footer from "./components/footer";
-
-
-
-
+import Register from "./screens/register";
 
 
 function App() {
@@ -24,6 +21,7 @@ function App() {
         <Route path="/home-owners" element={<Owners /> } />
         <Route path="/agents" element={<Agents />} />
         <Route path="/login" element={<Login /> } />
+        <Route path="/signup" element={<Register /> } />
       </Routes>
       <Footer />
     </Router>
