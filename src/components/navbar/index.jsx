@@ -20,14 +20,14 @@ const Navbar = () => {
 
   return (
     <nav className='w-[100%] h-[100px] 2xl:h-[120px] sticky top-0 bg-[transparent] flex flex-row justify-center overflow-hidden z-[10] '>
-        <div className='w-[90%] h-[100%] flex flex-row justify-center'>
+        <div className='w-[90%] 5xl:w-[60%] h-[100%] flex flex-row justify-center'>
             <div className='w-[100%] h-[100%] flex flex-row justify-between '>
                 <section className='w-[75%] flex flex-row justify-start items-center text-xl '>
                     <Link to="/" className="font-['Moon_Dance'] text-[40px] md:text-[80px] ">
                         omyHome
                     </Link>
 
-                    <ul className='w-[65%] 2xl:w-[65%] hidden md:flex flex-row justify-between pl-12 lg:pl-20 2xl:pl-32'>
+                    <ul className='w-[65%] 2xl:w-[65%] hidden md:flex flex-row justify-between items-center   pl-12 lg:pl-20 2xl:pl-32'>
                         <Link to="/buy-a-property" className='text-base lg:text-lg 2xl:text-2xl'>Buy</Link>
                         <Link to="/rent-a-property" className='text-base lg:text-lg 2xl:text-2xl'>Rent</Link>
                         <li>
