@@ -27,7 +27,7 @@ const Navbar = () => {
                         omyHome
                     </Link>
 
-                    <ul className='w-[65%] 2xl:w-[65%] hidden md:flex flex-row justify-between items-center   pl-12 lg:pl-20 2xl:pl-32'>
+                    <ul className='w-[65%] 2xl:w-[65%] hidden lg:flex flex-row justify-between items-center pl-12 lg:pl-20 2xl:pl-32'>
                         <Link to="/buy-a-property" className='text-base lg:text-lg 2xl:text-2xl'>Buy</Link>
                         <Link to="/rent-a-property" className='text-base lg:text-lg 2xl:text-2xl'>Rent</Link>
                         <li>
@@ -42,13 +42,13 @@ const Navbar = () => {
                     </ul>
                 </section>
 
-                <Link to="/login" className='w-[25%] hidden md:flex flex-row justify-end items-center text-base lg:text-lg 2xl:text-2xl'>
+                <Link to="/login" className='w-[25%] hidden lg:flex flex-row justify-end items-center text-base lg:text-lg 2xl:text-2xl'>
                     <RxPerson />
                     &nbsp; &nbsp;
                     Login
                 </Link>
 
-                <section onClick={() => handleMobile()} className='md:hidden flex flex-row items-center justify-center pr-4 text-3xl z-[80]'>
+                <section onClick={() => handleMobile()} className='lg:hidden flex flex-row items-center justify-center pr-4 text-3xl z-[80]'>
                     {mobile ? <MdClose /> : <FaBars />}
                 </section>
             </div>
