@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import RegisterImage from "../../assets/images/hero4.jpg"
+import RegisterImage from "../../assets/images/login.svg"
 import { Link } from 'react-router-dom';
 import {FcGoogle} from "react-icons/fc";
 import {AiOutlineEyeInvisible} from "react-icons/ai"
@@ -20,17 +20,14 @@ const Register = () => {
 
 
   return (
-    <div className='w-[100%] h-[100%] md:h-[150vh]  5xl:h-[100vh] flex flex-row justify-center '>
-      <div className='w-[100%] 5xl:w-[60%] h-[100%] flex flex-row justify-center bg-white'>
+    <div className='w-[100%] min-h-[80vh] md:min-h-[100vh] place-items-center flex flex-row justify-center '>
+      <div className='w-[90%] 5xl:w-[60%] h-[100%] flex flex-row justify-center bg-white'>
+        <div className='w-[100%] h-[100%] flex flex-row justify-center lg:justify-between items-center'>
 
-        <div className='w-[100%] h-[100%] flex flex-row justify-center md:justify-between items-center'>
-          <div className='w-[50%] h-[100%] hidden md:flex '>
-            <img src={RegisterImage} className="w-[100%] h-[100%] object-cover" alt="register"/>
-          </div>
-
-          <div className='w-[80%] md:w-[50%] h-[100%] flex flex-row justify-center'>
+          <div className='w-[80%] lg:w-[50%] h-[100%] flex flex-row justify-center'>
             <div className='w-[100%] h-[100%] flex flex-row justify-center '>
-              <div className='w-[100%] md:w-[80%] h-[100%] flex flex-col justify-between md:justify-evenly'>
+
+              <div className='w-[100%] h-[100%] flex flex-col justify-between md:justify-center'>
 
                 <h1 className='text-2xl md:text-5xl 5xl:text-8xl font-[900] tracking-5 my-8 5xl:my-20 '>Sign Up</h1>
 
@@ -122,6 +119,12 @@ const Register = () => {
               </div>
             </div>
           </div>
+
+
+          <div className='w-[50%] h-[100%] hidden lg:flex flex-row justify-center '>
+            <img src={RegisterImage} className="w-[90%] h-[100%]" alt="register"/>
+          </div>
+
         </div>
       </div>
     </div>
