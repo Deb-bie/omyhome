@@ -30,6 +30,9 @@ const ReusableDealComponent = ({name, image}) => {
                             </div>
                         </div>
 
+
+                        
+
                     </div>
                 </div>
             </div>
