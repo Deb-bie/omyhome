@@ -87,20 +87,24 @@ const SecondSection = () => {
                                     <input 
                                         type="radio"
                                         value="rent"
+                                        name='deal_type'
+                                        id='rent'
                                         className='w-[15px] h-[15px] '
                                     />
                                     &nbsp;
-                                    <label>Rent a property</label>
+                                    <label for="rent">Rent a property</label>
                                 </div>
 
                                 <div className="flex flex-row content-center items-center mb-2 text-xl ">
                                     <input 
                                         type="radio"
                                         value="buy"
+                                        name='deal_type'
+                                        id='buy'
                                         className='w-[15px] h-[15px] '
                                     />
                                     &nbsp;
-                                    <label>Buy a property</label>
+                                    <label for="buy">Buy a property</label>
                                 </div>
                             </div>
                         : ""
