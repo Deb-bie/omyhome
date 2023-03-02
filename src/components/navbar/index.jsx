@@ -19,7 +19,7 @@ const Navbar = () => {
     const handleMobile = () => {setMobile(!mobile)}
 
   return (
-    <nav className='w-[100%] h-[100px] 2xl:h-[120px] sticky top-0 bg-[transparent] flex flex-row justify-center overflow-hidden z-[10] '>
+    <nav className='w-[100%] h-[120px] sticky top-0 bg-[transparent] flex flex-row justify-center overflow-hidden z-[10] '>
         <div className='w-[90%] 5xl:w-[60%] h-[100%] flex flex-row justify-center'>
             <div className='w-[100%] h-[100%] flex flex-row justify-between '>
                 <section className='w-[75%] flex flex-row justify-start items-center text-xl '>
