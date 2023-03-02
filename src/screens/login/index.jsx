@@ -72,9 +72,11 @@ const Login = () => {
                 <div className='flex-1 h-[1px] bg-black ' />
               </div>
 
-              <button className='py-[3px] md:py-4 flex flex-row justify-evenly items-center border-2 border-gray-300  rounded-[40px] text-black text-base md:text-2xl mt-12 mb-20'>
-                <FcGoogle /> Google
-              </button>
+              <div className='w-[100%] flex flex-row justify-center  '>
+                <button className='w-[80%] py-[2px] md:py-2 flex flex-row justify-evenly items-center border-2 border-gray-300 rounded-[40px] text-black text-base md:text-3xl mt-12 mb-20'>
+                  <FcGoogle /> Google
+                </button>
+              </div>
             </div>
           </div>
         </div>

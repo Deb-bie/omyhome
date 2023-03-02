@@ -89,7 +89,7 @@ const Register = () => {
                       required
                       className='outline-none h-[30px] text-xl 5xl:text-3xl border-[3px] border-x-transparent border-t-transparent bg-transparent border-b-[#0000ff] '
                     >
-                      <option value="" >Select account</option>   
+                      <option value="" >Select an account</option>   
                       <option value="hunter">Hunter</option>
                       <option value="agent">Agent</option>
                       <option value="home owner">Home Owner</option>
@@ -113,9 +113,11 @@ const Register = () => {
                   <div className='flex-1 h-[1px] bg-black ' />
                 </div>
 
-                <button className='py-[3px] md:py-4 flex flex-row justify-evenly items-center border-2 border-gray-300  rounded-[40px] text-black text-base md:text-2xl mt-12 mb-20'>
-                  <FcGoogle /> Google
-                </button>
+                <div className='w-[100%] flex flex-row justify-center  '>
+                  <button className='w-[80%] py-[2px] md:py-2 flex flex-row justify-evenly items-center border-2 border-gray-300 rounded-[40px] text-black text-base md:text-3xl mt-12 mb-20'>
+                    <FcGoogle /> Google
+                  </button>
+              </div>
               </div>
             </div>
           </div>
